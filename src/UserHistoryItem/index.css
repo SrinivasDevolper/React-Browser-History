@@ -1,0 +1,40 @@
+li {
+  list-style: none;
+  margin: 10px;
+}
+.list-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-items div {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.time {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  margin-right: 20px;
+}
+.app-logo {
+  width: 30px;
+  margin-right: 15px;
+}
+.title {
+  font-family: 'Roboto';
+  margin-right: 5px;
+  font-size: 15px;
+}
+.url {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #64748b;
+}
+.delete {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
